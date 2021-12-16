@@ -1,59 +1,40 @@
 <!doctype html>
 <html>
-
 <head>
+  <title>MyCloset_Winter</title>
   <meta charset="utf-8">
-  <title>MyCloset</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <style media>
+    h1{
+      font-size: 45px;
+      color: skyBlue;
+      text-align: center;
+
+      border-bottom: 5px skyBlue solid;
+      margin: 0px;
+      padding: 15px;
+    }
+    a{
+      color: skyBlue;
+    }
+    #winter_grid1{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #winter_grid1 ul{
+      border-right: 3px skyBlue solid;
+      width: 100px;
+      margin: 0px;
+      padding: 15px;
+      font-size: 19px;
+    }
+
+
+  </style>
 </head>
-
 <body>
-  <h1><strong>Winter</strong><br>
-    더죽패 패딩러버 주인장의 우당탕탕 겨울나기</h1>
-
-  <h2>주인장의 겨울쇼핑 리스트</h2>
-    <img src="가죽패딩.jpeg" alt="vivastudio" width="200"><br>
-      <table border="1">
-        <thead>
-          <tr>
-            <th>브랜드</th> <th>사이즈</th> <th>가격</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>비바스튜디오</td> <td>M</td> <td>160000(블프)</td>
-          </tr>
-        </tbody>
-      </table>
-    <img src="빨간니트.jpeg" alt="dgre" width="200"><br>
-      <table border="1">
-        <thead>
-          <tr>
-            <th>브랜드</th> <th>사이즈</th> <th>가격</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>디그레</td> <td>L</td> <td>75000(블프)</td>
-          </tr>
-        </tbody>
-      </table>
-    <img src="택시셔츠.jpeg" alt="unionblue" width="200"><br>
-      <table border="1">
-        <thead>
-          <tr>
-            <th>브랜드</th> <th>사이즈</th> <th>가격</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>유니온블루</td> <td>L</td> <td>38000(블프)</td>
-          </tr>
-        </tbody>
-      </table>
-
-  <h2>주인장의 겨울나기 추억들</h2>
-    <img src="겨울삽교호.jpeg" alt="삽교호" width="400"><br>
-
+  <h1><strong>🌨Winter⛄️</strong></h1>
+  <div id="winter_grid1">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="Spring.html">봄</a></li>
@@ -61,9 +42,52 @@
       <li><a href="Autumn.html">가을</a></li>
       <li><a href="Winter.html">겨울</a></li>
     </ul>
-
-
-
+    <div>
+      <h2>더운것보단 추운게 낫지! 주인장의 우당탕탕 겨울나기</h2>
+      <h3>주인장의 겨울쇼핑 리스트</h3>
+        <img src="images/가죽패딩.jpeg" alt="vivastudio" width="200"><br>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>브랜드</th> <th>사이즈</th> <th>가격</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>비바스튜디오</td> <td>M</td> <td>160000(블프)</td>
+              </tr>
+            </tbody>
+          </table>
+        <img src="images/빨간니트.jpeg" alt="dgre" width="200"><br>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>브랜드</th> <th>사이즈</th> <th>가격</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>디그레</td> <td>L</td> <td>75000(블프)</td>
+              </tr>
+            </tbody>
+          </table>
+        <img src="images/택시셔츠.jpeg" alt="unionblue" width="200"><br>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>브랜드</th> <th>사이즈</th> <th>가격</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>유니온블루</td> <td>L</td> <td>38000(블프)</td>
+              </tr>
+            </tbody>
+          </table>
+    <h3>주인장의 겨울나기 추억들</h3>
+      <img src="images/겨울삽교호.jpeg" alt="삽교호" width="400"><br>
+  </div>
+</div>
     <div id="disqus_thread"></div>
     <script>
 
@@ -84,11 +108,5 @@
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
-
-
 </body>
-
 </html>

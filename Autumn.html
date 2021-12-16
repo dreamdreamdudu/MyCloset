@@ -1,15 +1,39 @@
 <!doctype html>
 <html>
-
 <head>
   <meta charset="utf-8">
-  <title>MyCloset</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>MyCloset_Autumn</title>
+  <style>
+    h1{
+      font-size: 45px;
+      color: saddleBrown;
+      text-align: center;
+
+      border-bottom: 5px saddleBrown solid;
+      margin: 0px;
+      padding: 15px;
+    }
+    a{
+      color: saddleBrown;
+    }
+    #autumn_grid1{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #autumn_grid1 ul{
+      border-right: 3px saddleBrown solid;
+      width: 100px;
+      margin: 0px;
+      padding: 15px;
+      font-size: 19px;
+    }
+
+  </style>
 </head>
-
 <body>
-  <h1><strong>Autumn</strong><br>
-    주인장의 최애 계절 날씨 좋고 기분 좋고 신발 신고 외출준비</h1>
-
+  <h1><strong>🍂Autumn🍁</strong></h1>
+  <div id="autumn_grid1">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="Spring.html">봄</a></li>
@@ -17,10 +41,11 @@
       <li><a href="Autumn.html">가을</a></li>
       <li><a href="Winter.html">겨울</a></li>
     </ul>
+    <h2>주인장의 최애 계절 날씨 좋고 기분 좋고 신발 신고 외출준비</h2>
+  </div>
 
-    <div id="disqus_thread"></div>
+  <div id="disqus_thread"></div>
     <script>
-
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -38,11 +63,5 @@
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
-
-
 </body>
-
 </html>

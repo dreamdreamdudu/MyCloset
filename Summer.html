@@ -1,15 +1,39 @@
 <!doctype html>
 <html>
-
 <head>
   <meta charset="utf-8">
-  <title>MyCloset</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>MyCloset_Summmer</title>
+  <style>
+    h1{
+      font-size: 45px;
+      color: forestgreen;
+      text-align: center;
+
+      border-bottom: 5px forestgreen solid;
+      margin: 0px;
+      padding: 15px;
+    }
+
+    #summer_grid1{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #summer_grid1 ul{
+      border-right: 3px forestgreen solid;
+      width: 100px;
+      margin: 0px;
+      padding: 15px;
+      font-size: 19px;
+    }
+    a{
+      color: forestgreen;
+    }
+  </style>
 </head>
-
 <body>
-  <h1><strong>Summer</strong><br>
-    바야흐로 운동의 계절 비싼 옷보다 멋있는 몸이 필수 오늘도 득근득근</h1>
-
+  <h1><strong>🏖Summer🍉</strong></h1>
+  <div id="summer_grid1">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="Spring.html">봄</a></li>
@@ -17,12 +41,10 @@
       <li><a href="Autumn.html">가을</a></li>
       <li><a href="Winter.html">겨울</a></li>
     </ul>
-
-
-
+    <h2>바야흐로 운동의 계절 비싼 옷보다 멋있는 몸이 필수 오늘도 득근득근</h2>
+  </div>
     <div id="disqus_thread"></div>
     <script>
-
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -40,9 +62,5 @@
     })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-
 </body>
-
 </html>

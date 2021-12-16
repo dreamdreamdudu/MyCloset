@@ -1,30 +1,59 @@
 <!doctype html>
 <html>
-
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>MyCloset</title>
+  <style>
+      h1{
+        font-size: 45px;
+        color: orange;
+        text-align: center;
+
+        border-bottom: 5px purple solid;
+        margin: 0px;
+        padding: 15px;
+      }
+      a{
+          color: purple;
+        }
+      #me{
+        color: orange;
+        width: 0;
+      }
+      #grid1{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #grid1 ul{
+        border-right: 3px purple solid;
+        width: 100px;
+        margin: 0px;
+        padding: 15px;
+        font-size: 19px;
+      }
+
+  </style>
 </head>
-
 <body>
-  <h1>소소하게 노는것을 좋아하는 <strong>한 컴공생의 추억장</strong>을 웹을 통해 소개하려고 합니다. 재밌게 둘러보다 가세요.<br>
-  주인장:<a href="https://www.instagram.com/honorable_zara/?hl=ko" target="_blank" title="zara's instargram">양재승</h1><br>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mi4RCrB-rUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="Spring.html">봄</a></li>
-      <li><a href="Summer.html">여름</a></li>
-      <li><a href="Autumn.html">가을</a></li>
-      <li><a href="Winter.html">겨울</a></li>
-    </ul>
-
-
+  <h1>🕰My Memoset🕰</h1>
+  <div id="grid1">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Spring.html">봄</a></li>
+        <li><a href="Summer.html">여름</a></li>
+        <li><a href="Autumn.html">가을</a></li>
+        <li><a href="Winter.html">겨울</a></li>
+      </ul>
+    <div>
+      <h2>이곳은 저만의 추억장입니다. 명품 추억들을 고이 보관하고있는데요,<br> 소소하게 노는것을 좋아하는 <strong>한 컴공생의 추억장</strong>을 웹을 통해 소개하려고 합니다.<br> 재밌게 둘러보다 가세요😁
+      주인장:<a href="https://www.instagram.com/honorable_zara/?hl=ko" target="_blank" title="zara's instargram" id="me">양재승</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mi4RCrB-rUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    </div>
+  </div>
 
     <div id="disqus_thread"></div>
     <script>
-
     /**
     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -43,28 +72,20 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-
-
-
-
-    <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/61a77b999099530957f78378/1flr3lk6o';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-  <!--End of Tawk.to Script-->
-
-
-
-
-
+    <div>  <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/61a77b999099530957f78378/1flr3lk6o';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    </div>
+    <!--End of Tawk.to Script-->
 </body>
 
 </html>
