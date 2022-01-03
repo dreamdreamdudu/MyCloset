@@ -1,0 +1,40 @@
+h1{
+  font-size: 45px;
+  text-align: center;
+
+  margin: 0px;
+  padding: 15px;
+}
+
+#me{
+  color: orange;
+  width: 0;
+}
+#grid1{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid1 ul{
+  width: 100px;
+  margin: 0px;
+  padding: 15px;
+  font-size: 19px;
+}
+*{
+  font-family: 'Gamja Flower', cursive;
+}
+
+@media(max-width:720px){
+  #grid1{
+    display: block;
+  }
+  h1{
+    border-bottom: none;
+  }
+  #grid1 ul{
+    border-right: none;
+  }
+}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
